@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function cat_widget_dropdown_theme() {
+  return [
+    'cat_widget_dropdown' => [
+      'variables' => [
+        'cat_widget_dropdown' => NULL,
+      ],
+      'template' => 'cat-widget-dropdown',
+    ],
+  ];
+}

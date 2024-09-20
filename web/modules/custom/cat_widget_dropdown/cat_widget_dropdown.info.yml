@@ -1,0 +1,7 @@
+name: 'Cat Widget Dropdown'
+type: module
+description: 'Provides a widget to search and display cat information from TheCatAPI.'
+core_version_requirement: ^10 || ^11
+package: Custom
+dependencies:
+  - drupal:views

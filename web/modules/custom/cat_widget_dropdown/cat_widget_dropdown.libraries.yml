@@ -1,0 +1,10 @@
+cat_widget_dropdown_library:
+  css:
+    theme:
+      css/cat_widget_dropdown.css: {}
+  js:
+    js/cat_widget_dropdown.js: {}
+  dependencies:
+    - core/jquery
+    - core/once
+    - core/drupal
