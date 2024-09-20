@@ -1,0 +1,20 @@
+uuid: 1e73a81b-d4dc-4c55-98db-f13a9d4038b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - cat_widget_dropdown
+  theme:
+    - olivero
+id: olivero_catwidget
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: cat_widget_block
+settings:
+  id: cat_widget_block
+  label: 'Cat Widget'
+  label_display: visible
+  provider: cat_widget_dropdown
+visibility: {  }
