@@ -236,6 +236,9 @@ $databases = [];
  * its location.
  */
 # $settings['config_sync_directory'] = '/directory/outside/webroot';
+if (empty($settings['config_sync_directory'])) {
+  $settings['config_sync_directory'] = '../config/sync';
+}
 
 /**
  * Settings:
