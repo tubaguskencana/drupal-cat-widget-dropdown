@@ -54,7 +54,7 @@ This command will import the configuration from the `config/sync/` directory, se
 Once the environment is set up, you can access the site through the URL provided by `ddev`, typically:
 
 ```
-http://drupal-cat-project.ddev.site:8080/
+http://cat-widget-dropdown.ddev.site:8080/
 ```
 - **Command to Launch the Site**
 ```
